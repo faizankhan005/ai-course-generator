@@ -1,0 +1,66 @@
+// export const QUICK_VIDEO_SUGGESTIONs = [
+//     { id: 1, text: "What is React JS?", prompt: "Create a quick explain video on What is React JS?" },
+//     { id: 2, text: "What is JavaScript?", prompt: "Create a quick explain video on What is JavaScript?" },
+//     { id: 3, text: "What is Node JS?", prompt: "Create a quick explain video on What is Node JS?" },
+//     { id: 4, text: "What is TypeScript?", prompt: "Create a quick explain video on What is TypeScript?" },
+//     { id: 5, text: "What is Next JS?", prompt: "Create a quick explain video on What is Next JS?" },
+
+//     { id: 6, text: "What is HTML?", prompt: "Create a quick explain video on What is HTML?" },
+//     { id: 7, text: "What is CSS?", prompt: "Create a quick explain video on What is CSS?" },
+//     { id: 8, text: "What is Tailwind CSS?", prompt: "Create a quick explain video on What is Tailwind CSS?" },
+//     { id: 9, text: "What is Git?", prompt: "Create a quick explain video on What is Git and version control?" },
+//     { id: 10, text: "What is GitHub?", prompt: "Create a quick explain video on What is GitHub and how it works?" },
+
+//     { id: 11, text: "What is API?", prompt: "Create a quick explain video on What is an API?" },
+//     { id: 12, text: "What is REST API?", prompt: "Create a quick explain video on What is a REST API?" },
+//     { id: 13, text: "What is Database?", prompt: "Create a quick explain video on What is a database?" },
+//     { id: 14, text: "What is MongoDB?", prompt: "Create a quick explain video on What is MongoDB?" },
+//     { id: 15, text: "What is SQL?", prompt: "Create a quick explain video on What is SQL?" },
+
+//     { id: 16, text: "What is AI?", prompt: "Create a quick explain video on What is Artificial Intelligence?" },
+//     { id: 17, text: "What is Machine Learning?", prompt: "Create a quick explain video on What is Machine Learning?" },
+//     { id: 18, text: "What is ChatGPT?", prompt: "Create a quick explain video on What is ChatGPT and how it works?" },
+//     { id: 19, text: "What is Prompt Engineering?", prompt: "Create a quick explain video on What is Prompt Engineering?" },
+//     { id: 20, text: "What is Generative AI?", prompt: "Create a quick explain video on What is Generative AI?" },
+
+//     { id: 21, text: "Frontend vs Backend", prompt: "Create a quick explain video on the difference between Frontend and Backend development." },
+//     { id: 22, text: "What is Full Stack Development?", prompt: "Create a quick explain video on What is Full Stack Development?" },
+//     { id: 23, text: "What is Web Development?", prompt: "Create a quick explain video on What is Web Development?" },
+//     { id: 24, text: "What is SaaS?", prompt: "Create a quick explain video on What is SaaS (Software as a Service)?" },
+//     { id: 25, text: "How the Internet Works?", prompt: "Create a quick explain video on How the Internet Works?" },
+//     { id: 26, text: "What is photosynthesis?", prompt: "Create a quick explain video on photosynthesis in simple terms." },
+//     { id: 27, text: "What is the Solar System?", prompt: "Create a quick explain video explaining the solar system and planets." },
+//     { id: 28, text: "What is gravity?", prompt: "Create a quick explain video explaining gravity with examples." },
+//     { id: 29, text: "What is DNA?", prompt: "Create a quick explain video explaining DNA and how it works." },
+//     { id: 30, text: "How does the human brain work?", prompt: "Create a quick explain video explaining how the human brain works." },
+
+//     { id: 31, text: "How does the internet work?", prompt: "Create a quick explain video explaining how the internet works." },
+//     { id: 32, text: "What is blockchain?", prompt: "Create a quick explain video explaining blockchain technology." },
+//     { id: 33, text: "What is cryptocurrency?", prompt: "Create a quick explain video explaining cryptocurrency basics." },
+//     { id: 34, text: "What is machine learning?", prompt: "Create a quick explain video explaining machine learning for beginners." },
+//     { id: 35, text: "What is cloud computing?", prompt: "Create a quick explain video explaining cloud computing." },
+
+//     { id: 36, text: "How to improve memory for studying?", prompt: "Create a quick explain video with tips to improve memory for studying." },
+//     { id: 37, text: "Best study techniques", prompt: "Create a quick explain video explaining the best study techniques." },
+//     { id: 38, text: "How to prepare for exams?", prompt: "Create a quick explain video about effective exam preparation." },
+//     { id: 39, text: "How to stay focused while studying?", prompt: "Create a quick explain video explaining how to stay focused while studying." },
+//     { id: 40, text: "Time management for students", prompt: "Create a quick explain video about time management tips for students." },
+
+//     { id: 41, text: "Frontend vs Backend development", prompt: "Create a quick explain video explaining the difference between frontend and backend." },
+//     { id: 42, text: "What is Full Stack Development?", prompt: "Create a quick explain video explaining full stack development." },
+//     { id: 43, text: "What is Web Development?", prompt: "Create a quick explain video explaining web development." },
+//     { id: 44, text: "What is SaaS?", prompt: "Create a quick explain video explaining Software as a Service (SaaS)." },
+//     { id: 45, text: "How websites work?", prompt: "Create a quick explain video explaining how websites work." }
+// ];
+export const QUICK_VIDEO_SUGGESTIONs = [
+  { id: 1, text: "⚛️ React Basics", prompt: "Create a quick explain video on React JS fundamentals." },
+  { id: 2, text: "🟨 JS Basics", prompt: "Create a quick explain video on JavaScript fundamentals." },
+  { id: 3, text: "🟢 Node Intro", prompt: "Create a quick explain video explaining Node JS." },
+  { id: 4, text: "🔷 TS Basics", prompt: "Create a quick explain video explaining TypeScript basics." },
+  { id: 5, text: "▲ Next Guide", prompt: "Create a quick explain video explaining Next JS framework." },
+  { id: 6, text: "🧠 AI Intro", prompt: "Create a quick explain video explaining Artificial Intelligence." },
+  { id: 7, text: "🤖 ML Basics", prompt: "Create a quick explain video explaining Machine Learning." },
+  { id: 8, text: "🌐 Web Basics", prompt: "Create a quick explain video explaining how the web works." },
+  { id: 9, text: "☁️ Cloud Intro", prompt: "Create a quick explain video explaining cloud computing." },
+  { id: 10, text: "🔐 Cyber Basics", prompt: "Create a quick explain video explaining cybersecurity basics." },
+];
