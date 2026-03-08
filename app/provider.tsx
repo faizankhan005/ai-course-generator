@@ -1,37 +1,34 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { User } from "lucide-react";
 import { UserDetailContext } from "@/context/UseDetailContext";
 
 const Provider = ({ children }: { children: React.ReactNode }) => {
 
+  const [userDetail, setUserDetail] = useState(null);
 
-  const [userDetails, setUserDetails] = React.useState(null);
   useEffect(() => {
     CreateNewUser();
-}, []);
+  }, []);
 
   const CreateNewUser = async () => {
-  try{
-    const result = await axios.post('/api/user');
-    console.log(result.data)
-    console.log("USER DETAILS:",result.data)
-    setUserDetails(result.data);
-  }catch(error){
-    console.log("AXIOS ERROR:",error)
-  }
-}
+    try {
+      const result = await axios.post("/api/user");
+      setUserDetail(result.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
-    <>
-    <UserDetailContext.Provider value={{userDetails, setUserDetails}}><User size={20} />
+    <UserDetailContext.Provider value={{ userDetail, setUserDetail }}>
+      <div className="max-w-7xl mx-auto">
+
       {children}
+      </div>
     </UserDetailContext.Provider>
-    </>
   );
 };
 
 export default Provider;
-
