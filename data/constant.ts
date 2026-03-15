@@ -52,7 +52,7 @@
 //     { id: 44, text: "What is SaaS?", prompt: "Create a quick explain video explaining Software as a Service (SaaS)." },
 //     { id: 45, text: "How websites work?", prompt: "Create a quick explain video explaining how websites work." }
 // ];
-export const QUICK_VIDEO_SUGGESTIONs = [
+export const QUICK_VIDEO_SUGGESTIONS = [
   { id: 1, text: "⚛️ React Basics", prompt: "Create a quick explain video on React JS fundamentals." },
   { id: 2, text: "🟨 JS Basics", prompt: "Create a quick explain video on JavaScript fundamentals." },
   { id: 3, text: "🟢 Node Intro", prompt: "Create a quick explain video explaining Node JS." },
